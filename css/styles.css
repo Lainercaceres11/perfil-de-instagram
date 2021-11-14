@@ -1,0 +1,212 @@
+:root{
+    --font-size: 13px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.cabecera{
+    width: 1340px;
+    height: 44px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.img__logo{
+    width: 21px;
+    height: 22px;
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+hr{
+    width: 50%;
+  
+
+}
+
+/*main*/
+.main{
+    background-color: #fafafa;
+}
+
+.img__perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 200px;
+    position: relative;
+    left: 250px;
+    bottom: 150px;
+
+}
+
+
+.seccion_perfil, .follows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+    margin-right: 90px;
+
+}
+.nombre__usu{
+    font-size: 25px;
+
+}
+
+.follows{
+    margin-left: 55px;
+}
+
+.text__perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+    margin-top: 10px;
+    margin-left: 20px;
+    line-height: 5px;
+
+}
+.Lainer{
+    margin-right: 295px;
+}
+
+.texto__info{
+    margin-right: 10px;
+}
+
+.memories{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 800px;
+    position: relative;
+    bottom: 70px;
+
+}
+
+.img__memories{
+    width: 77px;
+    height: 77px;
+    border-radius: 200px;
+}
+
+.notas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+    color: #262626;
+
+}
+
+.editar__perfil{
+    width: 94.23px;
+    height: 30px;
+    
+}
+
+.busca{
+    width: 189px;
+    height: 28px;
+    color: #fafafa;
+}
+
+.hr{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+
+/*imagenes*/
+
+.span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.imagenes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25x;
+    margin-top: 10px;
+    
+}
+
+.galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    gap: 20px;
+    flex-basis: 20px;
+}
+
+.imagenes .galeria img{
+    width: 350px;
+    height: auto;
+    padding: 20px;
+}
+
+/*Estilos footer */
+
+.footer{
+    width: 1005px;
+    height: 134px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.info__footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    font-size: var(--font-size);
+}
+
+.info__idioma__año{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    gap: 10px;
+    font-size: var(--font-size);
+}
